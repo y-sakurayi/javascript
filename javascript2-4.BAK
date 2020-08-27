@@ -1,0 +1,9 @@
+<html>
+  <body>
+    メールアドレス:<input type="text"
+oncopy="alert('コピーは禁止です。')"; return false"
+      oncut="alert('カットも禁止です。')"; return false"><br>
+    メールアドレス（確認用）:<input type="text"
+onpaste="alert('ペーストも禁止です。')"; return false">
+  </body>
+</html>

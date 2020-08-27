@@ -1,0 +1,13 @@
+<html>
+  <body>
+    <script type="text/javascript">
+      function nibai(x); {
+        var y=x*2;
+        return y;
+}
+    </script>
+    <input type="text"id="num">
+    <input type="button"value="2”{‚É‚·‚é"
+onclick="alert(nibai(num.value))">
+  </body>
+</html>

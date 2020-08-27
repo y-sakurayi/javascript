@@ -1,0 +1,20 @@
+<html>
+  <body>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>   　
+<script type="text/javascript">
+      function handan(shadanki){
+        if(shadanki > 6) {
+$('#kekka').html('止まる');
+        } else if(shadanki > 4) {
+$('#kekka').html('ダッシュ');
+        } else {
+document.getElementById("kekka").innerHTML = "進む";
+        }
+        }
+    </script>
+    <input type="text"id="num">
+    <input type="button"value="判断"
+onclick="handan(num.value)">
+    <div id="kekka">ここに判断結果を表示します</div>
+  </body>
+</html>

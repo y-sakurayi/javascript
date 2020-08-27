@@ -1,0 +1,8 @@
+<html>
+  <body>
+     <script type = "text/javascript">
+        document.write("1.よちょ<br>");
+　　　　document.write("2.すちょ");
+     </script>
+  </body>
+</html>

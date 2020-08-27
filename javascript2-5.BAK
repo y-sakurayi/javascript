@@ -1,0 +1,3 @@
+<a href="/javascript—ûK/javascript.html">
+<img src="1.jpg" onmouseover="src='2.jpg'"
+onmouseout="src='1.jpg'" border="0"></a>
